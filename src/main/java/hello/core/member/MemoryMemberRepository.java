@@ -3,7 +3,7 @@ package hello.core.member;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MemoryMemberRepository implements MemberRopository {
+public class MemoryMemberRepository implements MemberRepository {
 
     //id과 member객체를 Map에 키(id)와 값(member객체)으로 저장
     private static Map<Long, Member> store = new HashMap<>();
